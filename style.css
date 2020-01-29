@@ -1,0 +1,128 @@
+
+/*TAG*/
+
+html {
+    display: block;
+    color: -internal-root-color;
+}
+
+body {
+  background-image: url("images/sailing-boat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  display: block;
+  margin: 8px;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  color: black;
+  font-family: Open sans, sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  color: black;
+  font-family: Open Sans, sans-serif;
+  font-size: 36px;
+  }
+
+p {
+  margin-bottom: 40px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+a {
+  color: #000000
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+
+/*i:hover {
+  color: black;
+}*/
+
+/*CLASS*/
+
+.img-circle {
+  border-radius: 50%
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.btn-bw {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    padding: 15px 20px;
+    border-radius: 4px;
+    border: 3px solid black;
+}
+
+.btn-bw:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+/*RESPONSIVE*/
+
+/*LAPTOP*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+/*TABLET*/
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+/*MOBILE*/
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
